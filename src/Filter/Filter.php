@@ -200,7 +200,7 @@ abstract class Filter implements FilterInterface
     {
         @trigger_error(sprintf(
             'Method %s() is deprecated since sonata-project/admin-bundle 3.84 and will be removed in version 4.0.',
-            __METHOD__,
+            __METHOD__
         ), \E_USER_DEPRECATED);
 
         $this->value = $value;
@@ -217,7 +217,7 @@ abstract class Filter implements FilterInterface
     {
         @trigger_error(sprintf(
             'Method %s() is deprecated since sonata-project/admin-bundle 3.84 and will be removed in version 4.0.',
-            __METHOD__,
+            __METHOD__
         ), \E_USER_DEPRECATED);
 
         return $this->value;
