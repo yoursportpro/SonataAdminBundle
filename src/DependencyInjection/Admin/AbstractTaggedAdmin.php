@@ -310,7 +310,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no manager type is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no manager type.',
@@ -383,7 +383,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no model manager is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no model manager.',
@@ -412,7 +412,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no data source is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no data source.',
@@ -441,7 +441,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no form contractor is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no form contractor.',
@@ -470,7 +470,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no show builder is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no show builder.',
@@ -499,7 +499,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no list build is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no list builder.',
@@ -528,7 +528,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no datagrid builder is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no datagrid builder.',
@@ -557,7 +557,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no translator is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no translator.',
@@ -587,7 +587,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
                 @trigger_error(sprintf(
                     'Calling %s() when no pool is set is deprecated since sonata-project/admin-bundle 3.84'
                     .' and will throw a LogicException in 4.0',
-                    __METHOD__,
+                    __METHOD__
                 ), \E_USER_DEPRECATED);
             }
 //            throw new \LogicException(sprintf(
@@ -617,7 +617,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no route generator is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no route generator.',
@@ -679,7 +679,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no security handler is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no security handler.',
@@ -708,7 +708,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no security handler is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no security handler.',
@@ -737,7 +737,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no route builder is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no route builder.',
@@ -766,7 +766,7 @@ abstract class AbstractTaggedAdmin implements TaggedAdminInterface
             @trigger_error(sprintf(
                 'Calling %s() when no label translator strategy is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no label translator strategy.',
