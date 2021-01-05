@@ -284,7 +284,7 @@ abstract class AbstractAdmin extends AbstractTaggedAdmin implements AdminInterfa
         'show' => false,
         'list' => false,
         'form' => false,
-        'datagrid' => false,
+        'datagrid' => false
     ];
 
     /**
@@ -2125,7 +2125,7 @@ EOT;
             @trigger_error(sprintf(
                 'Calling %s() when no classname label is set is deprecated since sonata-project/admin-bundle 3.84'
                 .' and will throw a LogicException in 4.0',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
 //            throw new \LogicException(sprintf(
 //                'Admin "%s" has no classname label. Did you forgot to initialize the admin ?',
