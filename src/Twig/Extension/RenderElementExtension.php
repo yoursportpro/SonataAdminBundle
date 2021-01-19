@@ -157,7 +157,7 @@ final class RenderElementExtension extends AbstractExtension
                 sprintf(
                     'Accessing a non existing value for the field "%s" is deprecated'
                     .' since sonata-project/admin-bundle 3.67 and will throw an exception in 4.0.',
-                    $fieldDescription->getName(),
+                    $fieldDescription->getName()
                 ),
                 \E_USER_DEPRECATED
             );
@@ -201,7 +201,7 @@ final class RenderElementExtension extends AbstractExtension
                 sprintf(
                     'Accessing a non existing value for the field "%s" is deprecated'
                     .' since sonata-project/admin-bundle 3.67 and will throw an exception in 4.0.',
-                    $fieldDescription->getName(),
+                    $fieldDescription->getName()
                 ),
                 \E_USER_DEPRECATED
             );
@@ -217,7 +217,7 @@ final class RenderElementExtension extends AbstractExtension
                 sprintf(
                     'Accessing a non existing value for the field "%s" is deprecated'
                     .' since sonata-project/admin-bundle 3.67 and will throw an exception in 4.0.',
-                    $fieldDescription->getName(),
+                    $fieldDescription->getName()
                 ),
                 \E_USER_DEPRECATED
             );
@@ -378,7 +378,7 @@ final class RenderElementExtension extends AbstractExtension
                     sprintf(
                         'Accessing a non existing value for the field "%s" is deprecated'
                         .' since sonata-project/admin-bundle 3.67 and will throw an exception in 4.0.',
-                        $fieldDescription->getName(),
+                        $fieldDescription->getName()
                     ),
                     \E_USER_DEPRECATED
                 );
