@@ -660,7 +660,7 @@ class Pool
         if ('sonata_deprecation_mute' !== (\func_get_args()[1] ?? null)) {
             @trigger_error(sprintf(
                 'The "%s()" method is deprecated since version 3.x and will be removed in 4.0.',
-                __METHOD__,
+                __METHOD__
             ), \E_USER_DEPRECATED);
         }
 
