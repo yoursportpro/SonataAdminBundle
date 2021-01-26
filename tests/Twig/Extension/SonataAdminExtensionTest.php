@@ -39,7 +39,6 @@ use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 use Symfony\Component\Translation\Loader\XliffFileLoader;
 use Symfony\Component\Translation\Translator;
-use Symfony\Component\Translation\TranslatorInterface as LegacyTranslatorInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 use Twig\Environment;
 use Twig\Error\LoaderError;
@@ -322,19 +321,6 @@ class SonataAdminExtensionTest extends TestCase
             $this->pool,
             null,
             new \stdClass()
-        );
-    }
-
-    /**
-     * @doesNotPerformAssertions
-     * @group legacy
-     */
-    public function testConstructWithLegacyTranslator(): void
-    {
-        new SonataAdminExtension(
-            $this->pool,
-            null,
-            $this->createStub(LegacyTranslatorInterface::class)
         );
     }
 

@@ -23,7 +23,6 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
-use Symfony\Component\Translation\TranslatorInterface as LegacyTranslationInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
@@ -156,11 +155,10 @@ class SonataAdminExtension extends AbstractExtension
                 ), \E_USER_DEPRECATED);
             }
 
-            if (!$translator instanceof TranslatorInterface && !$translator instanceof LegacyTranslationInterface) {
+            if (!$translator instanceof TranslatorInterface) {
                 throw new \TypeError(sprintf(
-                    'Argument 2 must be an instance of "%s" or preferably "%s", "%s given"',
+                    'Argument 2 must be an instance of "%s", "%s given"',
                     TranslatorInterface::class,
-                    LegacyTranslationInterface::class,
                     \get_class($translator)
                 ));
             }
