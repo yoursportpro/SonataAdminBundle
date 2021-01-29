@@ -306,10 +306,8 @@ abstract class BaseFieldDescription implements FieldDescriptionInterface
             $child = $this->getFieldValue($object, substr($fieldName, 0, $dotPos));
             if (null !== $child && !\is_object($child)) {
                 throw new NoValueException(sprintf(
-                    <<<'EXCEPTION'
-                    Unexpected value when accessing to the property "%s" on the class "%s" for the field "%s".
-                    Expected object|null, got %s.
-                    EXCEPTION,
+                    'Unexpected value when accessing to the property "%s" on the class "%s" for the field "%s".'
+                    . 'Expected object|null, got %s.',
                     $fieldName,
                     \get_class($object),
                     $this->getName(),

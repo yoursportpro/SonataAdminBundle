@@ -90,7 +90,7 @@ final class ModelType extends AbstractType
                 $options['class'],
                 $options['property'],
                 $options['query'],
-                $options['choices'],
+                $options['choices']
             );
         };
 
@@ -114,7 +114,6 @@ final class ModelType extends AbstractType
                 //select tag
                 return false;
             },
-
             'template' => 'choice',
             'multiple' => false,
             'expanded' => false,
