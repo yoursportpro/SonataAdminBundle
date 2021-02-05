@@ -1184,14 +1184,15 @@ abstract class AbstractAdmin extends AbstractTaggedAdmin implements AdminInterfa
 
     public function setSubject(?object $subject): void
     {
-        if (null !== $subject && !is_a($subject, $this->getClass(), true)) {
-            throw new \LogicException(sprintf(
-                'Admin "%s" does not allow this subject: %s, use the one register with this admin class %s',
-                static::class,
-                \get_class($subject),
-                $this->getClass()
-            ));
-        }
+        // disabled to be able to use the jarjobs/sonatadtomodelmanager package
+//        if (null !== $subject && !is_a($subject, $this->getClass(), true)) {
+//            throw new \LogicException(sprintf(
+//                'Admin "%s" does not allow this subject: %s, use the one register with this admin class %s',
+//                static::class,
+//                \get_class($subject),
+//                $this->getClass()
+//            ));
+//        }
 
         $this->subject = $subject;
     }
